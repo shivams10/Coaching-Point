@@ -30,10 +30,10 @@ const useStyles = makeStyles((theme) =>({
         width: '100%',
       },
     }));
-
+    
 const App = () => {
   const classes = useStyles();
-    return (
+  return (
         <div className={classes.wrapper}>
             <AppBar className={classes.appBar} position ="static" color="inherit">
                 <Typography variant="h2" align="center">
@@ -45,7 +45,7 @@ const App = () => {
                 <Notifications />
             </Options>
         </div>
-    )
-}
+    );
+};
 
 export default App;
