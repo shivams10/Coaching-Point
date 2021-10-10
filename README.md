@@ -1,4 +1,4 @@
-# Video Streaming
+# One to One Video Online Coaching
 
 ----Dependencies---- 
 1. socket.io allows us to make real time data connections
