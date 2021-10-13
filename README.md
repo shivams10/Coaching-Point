@@ -1,4 +1,4 @@
-# One to One Video Online Coaching
+# One to One Online Video Coaching
 
 ----Dependencies---- 
 1. socket.io allows us to make real time data connections
@@ -8,4 +8,4 @@
 4. @material-ui/icons 
 5. react-copy-to-clipboard 
 6. simple-peer 
-7. socket.io-client
+7. socket.io-client :  It allows Bi- directional Communication between clients.
