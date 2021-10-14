@@ -33,9 +33,10 @@ const useStyles = makeStyles((theme) => ({
     paper: {
       padding: '10px 20px',
       border: '2px solid black',
+
     },
   }));
-
+//Options passing children 
 const Options = ( {children} ) => {
     const {me, callAccepted, name, setName, callEnded, leaveCall, callUser} = useContext( SocketContext );
     const [ idToCall, setIdToCall] = useState('');
@@ -53,6 +54,7 @@ const Options = ( {children} ) => {
             </Paper>
             {children}
         </Container>
-    )}
+    )};
+
 
 export default Options;
